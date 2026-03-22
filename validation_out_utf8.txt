@@ -1,0 +1,186 @@
+Validation complete. Passed: 0, Failed: 4
+\n--- Failed Validation for: Blink Commerce Private Limited  ---
+15 validation errors for CompanyMetadata
+Category
+  Value error, Category must be one of ['Conglomerate', 'Enterprise', 'Investor', 'MSME', 'SMB', 'Startup', 'VC'] [type=value_error, input_value='Subsidiary ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Nature of Company
+  Value error, Nature of Company must be one of ['Govt', 'Non-Profit', 'Partnership', 'Private', 'Public', 'Subsidiary'] [type=value_error, input_value='Subsidiary ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Number of Offices (beyond HQ)
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='20–30', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+Employee Size
+  Value error, Employee Size must be an integer or range like 10-50 [type=value_error, input_value='4,000–5,000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Focus Sectors / Industries
+  Value error, Invalid list/text format [type=value_error, input_value='Acquired by Zomato in 20...k stores by March 2025.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Services / Offerings / Products
+  Value error, Invalid list/text format [type=value_error, input_value='https://blinkit.com ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Key Competitors
+  Value error, Invalid list/text format [type=value_error, input_value='Massive network of 450+ ...logistics partnerships.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Recent Funding Rounds
+  Value error, Invalid Recent Funding Rounds format [type=value_error, input_value='$15–20 billion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Key Investors / Backers
+  Value error, Invalid comma-separated list format [type=value_error, input_value='$45–55 billion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+LinkedIn Profile URL
+  Value error, Invalid LinkedIn Profile URL [type=value_error, input_value='3.4 / 5', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Brand Sentiment Score
+  Value error, Brand Sentiment Score must be one of ['Negative', 'Neutral', 'Positive'] [type=value_error, input_value='Hyper-local marketing; a...ns; seasonal discounts.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Net Promoter Score (NPS)
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Limited relocation support', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+Glassdoor Rating
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='Top 200 in India ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_parsing
+Customer Concentration Risk
+  Value error, Customer Concentration Risk must be one of ['High', 'Low', 'Medium'] [type=value_error, input_value='Limited wellness benefits', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Burn Rate
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='High', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_parsing
+\n--- Failed Validation for: International Business Machines Corporation  ---
+16 validation errors for CompanyMetadata
+Category
+  Value error, Category must be one of ['Conglomerate', 'Enterprise', 'Investor', 'MSME', 'SMB', 'Startup', 'VC'] [type=value_error, input_value='Public Enterprise ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Nature of Company
+  Value error, Nature of Company must be one of ['Govt', 'Non-Profit', 'Partnership', 'Private', 'Public', 'Subsidiary'] [type=value_error, input_value='Public Company', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Number of Offices (beyond HQ)
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='300+', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+Employee Size
+  Value error, Employee Size must be an integer or range like 10-50 [type=value_error, input_value='280,000–300,000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Focus Sectors / Industries
+  Value error, Invalid list/text format [type=value_error, input_value='IBM Study: AI Poised to ...arning Tools (Dec 2025)', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Services / Offerings / Products
+  Value error, Invalid list/text format [type=value_error, input_value='https://www.ibm.com ?', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Core Value Proposition
+  String should have at least 10 characters [type=string_too_short, input_value='@IBM', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_too_short
+Key Competitors
+  Value error, Invalid list/text format [type=value_error, input_value='Semiconductor/component ... network infrastructure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Recent Funding Rounds
+  Value error, Invalid Recent Funding Rounds format [type=value_error, input_value='$400–600 billion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Key Investors / Backers
+  Value error, Invalid comma-separated list format [type=value_error, input_value='$1.5–2.0 trillion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+LinkedIn Profile URL
+  Value error, Invalid LinkedIn Profile URL [type=value_error, input_value='4.0/5 ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Brand Sentiment Score
+  Value error, Brand Sentiment Score must be one of ['Negative', 'Neutral', 'Positive'] [type=value_error, input_value='Enterprise-led sales + p...+ consulting-led deals ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Net Promoter Score (NPS)
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Full relocation support', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+Glassdoor Rating
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='Global: Top 100; US: Top 50 ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_parsing
+Customer Concentration Risk
+  Value error, Customer Concentration Risk must be one of ['High', 'Low', 'Medium'] [type=value_error, input_value='Strong wellness programs and health initiatives', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Burn Rate
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='Moderate', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_parsing
+\n--- Failed Validation for: Barclays PLC  ---
+14 validation errors for CompanyMetadata
+Category
+  Value error, Category must be one of ['Conglomerate', 'Enterprise', 'Investor', 'MSME', 'SMB', 'Startup', 'VC'] [type=value_error, input_value='Public Enterprise ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Nature of Company
+  Value error, Nature of Company must be one of ['Govt', 'Non-Profit', 'Partnership', 'Private', 'Public', 'Subsidiary'] [type=value_error, input_value='Public Limited', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Number of Offices (beyond HQ)
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='50–70', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+Employee Size
+  Value error, Employee Size must be an integer or range like 10-50 [type=value_error, input_value='80,000–90,000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Services / Offerings / Products
+  Value error, Invalid list/text format [type=value_error, input_value='https://home.barclays/', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Core Value Proposition
+  String should have at least 10 characters [type=string_too_short, input_value='@Barclays', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_too_short
+Recent Funding Rounds
+  Value error, Invalid Recent Funding Rounds format [type=value_error, input_value='$200–250 billion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Key Investors / Backers
+  Value error, Invalid comma-separated list format [type=value_error, input_value='$800–900 billion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+LinkedIn Profile URL
+  Value error, Invalid LinkedIn Profile URL [type=value_error, input_value='3.9/5', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Brand Sentiment Score
+  Value error, Brand Sentiment Score must be one of ['Negative', 'Neutral', 'Positive'] [type=value_error, input_value='Multi-channel: Branch ba...ate/investment clients.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Net Promoter Score (NPS)
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Partial relocation support', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+Glassdoor Rating
+  Value error, Glassdoor Rating must be between 1.0 and 5.0 [type=value_error, input_value=8000, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Customer Concentration Risk
+  Value error, Customer Concentration Risk must be one of ['High', 'Low', 'Medium'] [type=value_error, input_value='Standard wellness and lifestyle benefits', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Burn Rate
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='Moderate-High', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_parsing
+\n--- Failed Validation for: Schneider Electric ---
+14 validation errors for CompanyMetadata
+Category
+  Value error, Category must be one of ['Conglomerate', 'Enterprise', 'Investor', 'MSME', 'SMB', 'Startup', 'VC'] [type=value_error, input_value='Public Enterprise ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Nature of Company
+  Value error, Nature of Company must be one of ['Govt', 'Non-Profit', 'Partnership', 'Private', 'Public', 'Subsidiary'] [type=value_error, input_value='Public ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Number of Offices (beyond HQ)
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='100+', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+Employee Size
+  Value error, Employee Size must be an integer or range like 10-50 [type=value_error, input_value='150,000–160,000', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Focus Sectors / Industries
+  Value error, Invalid list/text format [type=value_error, input_value='Recently announced a maj...ta center AI solutions.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Services / Offerings / Products
+  Value error, Invalid list/text format [type=value_error, input_value='https://www.se.com/', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Recent Funding Rounds
+  Value error, Invalid Recent Funding Rounds format [type=value_error, input_value='$90–120 billion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Key Investors / Backers
+  Value error, Invalid comma-separated list format [type=value_error, input_value='$250–300 billion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+LinkedIn Profile URL
+  Value error, Invalid LinkedIn Profile URL [type=value_error, input_value='4.0/5', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Brand Sentiment Score
+  Value error, Brand Sentiment Score must be one of ['Negative', 'Neutral', 'Positive'] [type=value_error, input_value='Direct sales to large ac...butors and contractors.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Net Promoter Score (NPS)
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Full relocation support', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_parsing
+Glassdoor Rating
+  Value error, Glassdoor Rating must be between 1.0 and 5.0 [type=value_error, input_value=4500, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Customer Concentration Risk
+  Value error, Customer Concentration Risk must be one of ['High', 'Low', 'Medium'] [type=value_error, input_value='Comprehensive wellness a...yee well-being programs', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
+Burn Rate
+  Input should be a valid number, unable to parse string as a number [type=float_parsing, input_value='High ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/float_parsing

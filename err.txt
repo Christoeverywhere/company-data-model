@@ -1,0 +1,5 @@
+Validation complete. Passed: 3, Failed: 1
+\n--- Failed Validation for: Schneider Electric ---
+1 validation error for CompanyMetadata
+  Value error, Short Name should be distinct from Company Name when both are present [type=value_error, input_value={'Company Name': 'Schneid...'Low', 'Burn Rate': 0.0}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/value_error
